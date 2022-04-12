@@ -24,7 +24,7 @@ const useFirebase=()=>{
         .then(()=>{})
         // setUser()
 
-    }
+    };
 
     useEffect(()=>{
         onAuthStateChanged(auth,user=>{
